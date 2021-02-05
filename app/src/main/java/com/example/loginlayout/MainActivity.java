@@ -3,6 +3,9 @@ package com.example.loginlayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,4 +14,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
 }
